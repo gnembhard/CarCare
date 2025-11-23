@@ -26,4 +26,4 @@ The MPG Logger offers a practical mobile use case with a clear story and moderat
 
 # The Final Decision
 
-After reviewing all three ideas using the evaluation criteria—Mobile, Story, Market, Habit, and Scope—we decided that the Car Maintenance Tracker app is the strongest and most practical choice for our project. It clearly supports mobile functionality since users often track maintenance while near their vehicle, and it has a meaningful story that helps users prevent costly repairs by staying organized. This idea also encourages habit-building through regular logging and reminders and fits perfectly within our development scope using Firebase for data storage.
+After reviewing all three ideas I decided that the Car Maintenance Tracker app is the strongest and most practical choice for our project. It clearly supports mobile functionality since users often track maintenance while near their vehicle, and it has a meaningful story that helps users prevent costly repairs by staying organized. This idea also encourages habit-building through regular logging and reminders and fits perfectly within our development scope using Firebase for data storage.
