@@ -87,6 +87,9 @@ CarCare+ is an app designed to help users manage their car maintenance and care 
 <img width="1920" height="1080" alt="Final Project Wireframe" src="https://github.com/user-attachments/assets/e3b3962f-cef0-42b5-9c4b-20939dd7df3e" />
 
 ---
+## Progress as of Unit 8 
+Gif:
+![Screen+Recording+2025-11-28+at+9 52 02%E2%80%AFPM](https://github.com/user-attachments/assets/8ae32c84-7b40-4d29-94cd-3b6493b57e74)
 
 ## Schema
 
