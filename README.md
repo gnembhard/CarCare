@@ -41,7 +41,7 @@ CarCare+ is an app designed to help users manage their car maintenance and care 
 - User can add their vehicle information  
 - User can track maintenance history and upcoming service reminders  
 - User can receive notifications for scheduled maintenance  
-- User can view car care tips  
+
 
 **Optional (Nice-to-have Stories)**  
 - User can share maintenance logs with a mechanic  
@@ -63,8 +63,6 @@ CarCare+ is an app designed to help users manage their car maintenance and care 
 - **Add Maintenance Screen**  
   - User can log a new service or maintenance task  
 
-- **Settings Screen**  
-  - User can manage notifications, account, and preferences  
 
 ---
 
@@ -90,6 +88,8 @@ CarCare+ is an app designed to help users manage their car maintenance and care 
 ## Progress as of Unit 8 
 Gif:
 ![Screen+Recording+2025-11-28+at+9 52 02%E2%80%AFPM](https://github.com/user-attachments/assets/8ae32c84-7b40-4d29-94cd-3b6493b57e74)
+
+## Progress as of Unit 9
 
 ## Schema
 
