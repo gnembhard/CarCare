@@ -71,13 +71,11 @@ CarCare+ is an app designed to help users manage their car maintenance and care 
 **Tab Navigation (Tab → Screen)**  
 - Home → Dashboard  
 - Vehicles → Vehicle List / Details  
-- Tips → Car Care Tips  
-- Settings → App Settings  
 
 **Flow Navigation (Screen → Screen)**  
 - Login → Dashboard  
 - Vehicle List → Vehicle Detail → Add Maintenance  
-- Dashboard → Tips → Tip Details  
+
 
 ---
 
