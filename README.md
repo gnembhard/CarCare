@@ -12,6 +12,8 @@ Submitted by: Giovanni Nembhard Z23567778
   - [Screen Archetypes](#screen-archetypes)
   - [Navigation](#navigation)
 - [Wireframes](#wireframes)
+- [Progress as of Unit 8](#progress-as-of-unit-8)
+- [Progress as of Unit 9](#progress-as-of-unit-9)
 - [Demo Video](#demo-video)
 - [Completed User Stories](#completed-user-stories)
   - [Models](#models)
