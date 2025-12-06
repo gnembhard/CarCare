@@ -1,0 +1,19 @@
+func logsForCar(carId: String, completion: @escaping ([MaintenanceLog]) -> Void) -> ListenerRegistration {
+    guard let uid = Auth.auth().currentUser?.uid else {
+        completion([])
+        return db.collection("maintenanceLogs").addSnapshotListener { _, _ in }
+    }
+
+    return db.collection("maintenanceLogs")
+        .whereField("carId", isEqualTo: carId)
+        .whereField("userId", isEqualTo: uid)     // ⭐ REQUIRED
+        .order(by: "date", descending: true)
+        .addSnapshotListener { snapshot, error in
+            if let docs = snapshot?.documents {
+                let logs = docs.compactMap { try? $0.data(as: MaintenanceLog.self) }
+                completion(logs)
+            } else {
+                completion([])
+            }
+        }
+}
