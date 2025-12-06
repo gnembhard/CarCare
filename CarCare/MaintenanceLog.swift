@@ -5,14 +5,15 @@
 //  Created by Giovanni Nembhard on 11/27/25.
 //
 
-import SwiftUI
+import Foundation
+import FirebaseFirestore
 
-struct MaintenanceLog: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-#Preview {
-    MaintenanceLog()
+struct MaintenanceLog: Identifiable, Codable {
+    @DocumentID var id: String?
+    var carId: String
+    var type: String
+    var date: Date
+    var mileage: Int
+    var notes: String?
+    var userId: String
 }

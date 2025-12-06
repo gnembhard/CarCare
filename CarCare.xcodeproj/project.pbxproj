@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		604540D12ED91C1B0025919E /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 604540D02ED91C1B0025919E /* FirebaseAuth */; };
+		604540D32ED91CF30025919E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 604540D22ED91CF30025919E /* FirebaseFirestore */; };
+		604E1D1E2EDBE306009D3638 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 604E1D1D2EDBE306009D3638 /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		60988D962ED90C7E005C5E6E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,25 +30,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		60988D882ED90C7A005C5E6E /* CarCare+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CarCare+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		60988D952ED90C7E005C5E6E /* CarCare+Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CarCare+Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		60988D9F2ED90C7E005C5E6E /* CarCare+UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CarCare+UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60988D882ED90C7A005C5E6E /* CarCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60988D952ED90C7E005C5E6E /* CarCareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarCareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60988D9F2ED90C7E005C5E6E /* CarCareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarCareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		60988D8A2ED90C7A005C5E6E /* CarCare+ */ = {
+		60988D8A2ED90C7A005C5E6E /* CarCare */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "CarCare+";
+			path = CarCare;
 			sourceTree = "<group>";
 		};
-		60988D982ED90C7E005C5E6E /* CarCare+Tests */ = {
+		60988D982ED90C7E005C5E6E /* CarCareTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "CarCare+Tests";
+			path = CarCareTests;
 			sourceTree = "<group>";
 		};
-		60988DA22ED90C7E005C5E6E /* CarCare+UITests */ = {
+		60988DA22ED90C7E005C5E6E /* CarCareUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "CarCare+UITests";
+			path = CarCareUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +58,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				604540D12ED91C1B0025919E /* FirebaseAuth in Frameworks */,
+				604540D32ED91CF30025919E /* FirebaseFirestore in Frameworks */,
+				604E1D1E2EDBE306009D3638 /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +81,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		604540CF2ED91C1B0025919E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		60988D7F2ED90C7A005C5E6E = {
 			isa = PBXGroup;
 			children = (
-				60988D8A2ED90C7A005C5E6E /* CarCare+ */,
-				60988D982ED90C7E005C5E6E /* CarCare+Tests */,
-				60988DA22ED90C7E005C5E6E /* CarCare+UITests */,
+				60988D8A2ED90C7A005C5E6E /* CarCare */,
+				60988D982ED90C7E005C5E6E /* CarCareTests */,
+				60988DA22ED90C7E005C5E6E /* CarCareUITests */,
+				604540CF2ED91C1B0025919E /* Frameworks */,
 				60988D892ED90C7A005C5E6E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +102,9 @@
 		60988D892ED90C7A005C5E6E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				60988D882ED90C7A005C5E6E /* CarCare+.app */,
-				60988D952ED90C7E005C5E6E /* CarCare+Tests.xctest */,
-				60988D9F2ED90C7E005C5E6E /* CarCare+UITests.xctest */,
+				60988D882ED90C7A005C5E6E /* CarCare.app */,
+				60988D952ED90C7E005C5E6E /* CarCareTests.xctest */,
+				60988D9F2ED90C7E005C5E6E /* CarCareUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +112,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		60988D872ED90C7A005C5E6E /* CarCare+ */ = {
+		60988D872ED90C7A005C5E6E /* CarCare */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 60988DA92ED90C7E005C5E6E /* Build configuration list for PBXNativeTarget "CarCare+" */;
+			buildConfigurationList = 60988DA92ED90C7E005C5E6E /* Build configuration list for PBXNativeTarget "CarCare" */;
 			buildPhases = (
 				60988D842ED90C7A005C5E6E /* Sources */,
 				60988D852ED90C7A005C5E6E /* Frameworks */,
@@ -108,18 +125,21 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				60988D8A2ED90C7A005C5E6E /* CarCare+ */,
+				60988D8A2ED90C7A005C5E6E /* CarCare */,
 			);
-			name = "CarCare+";
+			name = CarCare;
 			packageProductDependencies = (
+				604540D02ED91C1B0025919E /* FirebaseAuth */,
+				604540D22ED91CF30025919E /* FirebaseFirestore */,
+				604E1D1D2EDBE306009D3638 /* FirebaseStorage */,
 			);
 			productName = "CarCare+";
-			productReference = 60988D882ED90C7A005C5E6E /* CarCare+.app */;
+			productReference = 60988D882ED90C7A005C5E6E /* CarCare.app */;
 			productType = "com.apple.product-type.application";
 		};
-		60988D942ED90C7E005C5E6E /* CarCare+Tests */ = {
+		60988D942ED90C7E005C5E6E /* CarCareTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 60988DAC2ED90C7E005C5E6E /* Build configuration list for PBXNativeTarget "CarCare+Tests" */;
+			buildConfigurationList = 60988DAC2ED90C7E005C5E6E /* Build configuration list for PBXNativeTarget "CarCareTests" */;
 			buildPhases = (
 				60988D912ED90C7E005C5E6E /* Sources */,
 				60988D922ED90C7E005C5E6E /* Frameworks */,
@@ -131,18 +151,18 @@
 				60988D972ED90C7E005C5E6E /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				60988D982ED90C7E005C5E6E /* CarCare+Tests */,
+				60988D982ED90C7E005C5E6E /* CarCareTests */,
 			);
-			name = "CarCare+Tests";
+			name = CarCareTests;
 			packageProductDependencies = (
 			);
 			productName = "CarCare+Tests";
-			productReference = 60988D952ED90C7E005C5E6E /* CarCare+Tests.xctest */;
+			productReference = 60988D952ED90C7E005C5E6E /* CarCareTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		60988D9E2ED90C7E005C5E6E /* CarCare+UITests */ = {
+		60988D9E2ED90C7E005C5E6E /* CarCareUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 60988DAF2ED90C7E005C5E6E /* Build configuration list for PBXNativeTarget "CarCare+UITests" */;
+			buildConfigurationList = 60988DAF2ED90C7E005C5E6E /* Build configuration list for PBXNativeTarget "CarCareUITests" */;
 			buildPhases = (
 				60988D9B2ED90C7E005C5E6E /* Sources */,
 				60988D9C2ED90C7E005C5E6E /* Frameworks */,
@@ -154,13 +174,13 @@
 				60988DA12ED90C7E005C5E6E /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				60988DA22ED90C7E005C5E6E /* CarCare+UITests */,
+				60988DA22ED90C7E005C5E6E /* CarCareUITests */,
 			);
-			name = "CarCare+UITests";
+			name = CarCareUITests;
 			packageProductDependencies = (
 			);
 			productName = "CarCare+UITests";
-			productReference = 60988D9F2ED90C7E005C5E6E /* CarCare+UITests.xctest */;
+			productReference = 60988D9F2ED90C7E005C5E6E /* CarCareUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 60988D832ED90C7A005C5E6E /* Build configuration list for PBXProject "CarCare+" */;
+			buildConfigurationList = 60988D832ED90C7A005C5E6E /* Build configuration list for PBXProject "CarCare" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -195,14 +215,17 @@
 			);
 			mainGroup = 60988D7F2ED90C7A005C5E6E;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				60988DBA2ED915F5005C5E6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 60988D892ED90C7A005C5E6E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				60988D872ED90C7A005C5E6E /* CarCare+ */,
-				60988D942ED90C7E005C5E6E /* CarCare+Tests */,
-				60988D9E2ED90C7E005C5E6E /* CarCare+UITests */,
+				60988D872ED90C7A005C5E6E /* CarCare */,
+				60988D942ED90C7E005C5E6E /* CarCareTests */,
+				60988D9E2ED90C7E005C5E6E /* CarCareUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +281,12 @@
 /* Begin PBXTargetDependency section */
 		60988D972ED90C7E005C5E6E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 60988D872ED90C7A005C5E6E /* CarCare+ */;
+			target = 60988D872ED90C7A005C5E6E /* CarCare */;
 			targetProxy = 60988D962ED90C7E005C5E6E /* PBXContainerItemProxy */;
 		};
 		60988DA12ED90C7E005C5E6E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 60988D872ED90C7A005C5E6E /* CarCare+ */;
+			target = 60988D872ED90C7A005C5E6E /* CarCare */;
 			targetProxy = 60988DA02ED90C7E005C5E6E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -321,7 +344,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -378,7 +401,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -395,6 +418,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H2GVX7PKM7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -407,7 +431,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gnembhard.CarCare-";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gnembhard.CarCare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -426,6 +450,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H2GVX7PKM7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -438,7 +463,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gnembhard.CarCare-";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gnembhard.CarCare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -457,7 +482,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gnembhard.CarCare-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -467,7 +492,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarCare+.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarCare+";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarCare.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarCare";
 			};
 			name = Debug;
 		};
@@ -478,7 +503,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gnembhard.CarCare-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -488,7 +513,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarCare+.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarCare+";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarCare.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarCare";
 			};
 			name = Release;
 		};
@@ -533,7 +558,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		60988D832ED90C7A005C5E6E /* Build configuration list for PBXProject "CarCare+" */ = {
+		60988D832ED90C7A005C5E6E /* Build configuration list for PBXProject "CarCare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				60988DA72ED90C7E005C5E6E /* Debug */,
@@ -542,7 +567,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		60988DA92ED90C7E005C5E6E /* Build configuration list for PBXNativeTarget "CarCare+" */ = {
+		60988DA92ED90C7E005C5E6E /* Build configuration list for PBXNativeTarget "CarCare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				60988DAA2ED90C7E005C5E6E /* Debug */,
@@ -551,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		60988DAC2ED90C7E005C5E6E /* Build configuration list for PBXNativeTarget "CarCare+Tests" */ = {
+		60988DAC2ED90C7E005C5E6E /* Build configuration list for PBXNativeTarget "CarCareTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				60988DAD2ED90C7E005C5E6E /* Debug */,
@@ -560,7 +585,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		60988DAF2ED90C7E005C5E6E /* Build configuration list for PBXNativeTarget "CarCare+UITests" */ = {
+		60988DAF2ED90C7E005C5E6E /* Build configuration list for PBXNativeTarget "CarCareUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				60988DB02ED90C7E005C5E6E /* Debug */,
@@ -570,6 +595,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		60988DBA2ED915F5005C5E6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		604540D02ED91C1B0025919E /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 60988DBA2ED915F5005C5E6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		604540D22ED91CF30025919E /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 60988DBA2ED915F5005C5E6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		604E1D1D2EDBE306009D3638 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 60988DBA2ED915F5005C5E6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 60988D802ED90C7A005C5E6E /* Project object */;
 }

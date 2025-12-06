@@ -6,18 +6,18 @@
 //
 
 import SwiftUI
-import FirebaseAuth
 
 struct ContentView: View {
-    @EnvironmentObject var session: SessionStore
+    @EnvironmentObject var authManager: AuthManager // ✅ Use AuthManager
 
     var body: some View {
         Group {
-            if session.user == nil {
-                AuthFlowView()
+            if authManager.user != nil {
+                MainTabView() // Your main app content
             } else {
-                MainTabView()
+                LoginView()
             }
         }
     }
 }
+

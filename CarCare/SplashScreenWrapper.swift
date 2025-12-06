@@ -8,11 +8,17 @@
 import SwiftUI
 
 struct SplashScreenWrapper: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
+    @EnvironmentObject var authManager: AuthManager
+    @State private var showMain = false
 
-#Preview {
-    SplashScreenWrapper()
+    var body: some View {
+        if showMain {
+            ContentView()
+                .environmentObject(authManager) // Main app after splash
+        } else {
+            SplashScreen {
+                showMain = true // called when splash finishes
+            }
+        }
+    }
 }
