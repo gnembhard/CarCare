@@ -90,6 +90,10 @@ Gif:
 ## Progress as of Unit 9
 ![Screen+Recording+2025-11-30+at+11 41 25%E2%80%AFPM](https://github.com/user-attachments/assets/5e68af0f-1c7a-46e9-9e4b-87699292493c)
 
+## 🎥 Demo Video
+
+[![Demo Video](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/0.jpg)](https://youtube.com/shorts/NIWaJrqXxJk?si=a4gtVC3GrBINF9et)
+
 ## Completed User Stories
 
 ### **Authentication**
