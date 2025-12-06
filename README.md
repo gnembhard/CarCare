@@ -90,6 +90,39 @@ Gif:
 ## Progress as of Unit 9
 ![Screen+Recording+2025-11-30+at+11 41 25%E2%80%AFPM](https://github.com/user-attachments/assets/5e68af0f-1c7a-46e9-9e4b-87699292493c)
 
+## Completed User Stories
+
+### **Authentication**
+- [x] User can create an account  
+- [x] User can log in  
+- [x] User can log out  
+- [x] User sees an error message when login fails  
+- [x] User session persists while app is open  
+
+### **Car Management**
+- [x] User can add a car  
+- [x] User can view a list of cars  
+- [x] User can view car details  
+- [x] User can delete a car  
+- [x] UI refreshes automatically when cars are added/removed  
+
+### **Maintenance Logs**
+- [x] User can add maintenance logs for a specific car  
+- [x] Maintenance logs display in real time with Firestore listener  
+- [x] Each log shows type, date, mileage, and optional notes  
+
+### **Profile**
+- [x] User can view their profile email and UID preview  
+- [x] User can access Edit Profile screen  
+- [x] User can update profile picture  
+- [x] User can update password  
+## Need to complete
+### **UI / UX**
+- [x] Modernized login UI  
+- [x] Improved maintenance log styling  
+- [x] Improved profile screen layout  
+- [x] Clean navigation titles and toolbar icons  
+
 
 
 ## Schema
