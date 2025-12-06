@@ -35,7 +35,7 @@ Time spent: 8 hours
 - **Story:** Helps car owners stay on top of maintenance tasks and repairs  
 - **Market:** Car owners and enthusiasts  
 - **Habit:** Daily or weekly check-ins depending on user preferences  
-- **Scope:** Medium — focuses on maintenance tracking, reminders, and tips  
+- **Scope:** Medium — focuses on maintenance tracking, and reminders 
 
 ---
 
