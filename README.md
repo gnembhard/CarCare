@@ -1,6 +1,11 @@
 # final-project-gnembhard
 final-project-gnembhard created by GitHub Classroom
 # CarCare+
+Submitted by: Giovanni Nembhard Z23567778
+
+## Overview
+**Description:**  
+CarCareis an app designed to help users manage their car maintenance schedules. It integrates with the **NHTSA API** to fetch vehicle data and uses **Firebase** for authentication, data storage, and image persistence. Users can add vehicles, track service history, and receive notifications for upcoming maintenance to keep their cars in top condition.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -10,16 +15,19 @@ final-project-gnembhard created by GitHub Classroom
   - [Screen Archetypes](#screen-archetypes)
   - [Navigation](#navigation)
 - [Wireframes](#wireframes)
-- [Schema](#schema)
+- [Demo Video](#demo-video)
+- [Completed User Stories](#completed-user-stories)
   - [Models](#models)
   - [Networking](#networking)
+  - [Final Video](#final-video)
+  - [License](#license)
 
 ---
 
 ## Overview
 **Description:**  
-CarCare+ is an app designed to help users manage their car maintenance and care schedules. Users can track services, get reminders to keep their car in great condition
-
+CarCareis an app designed to help users manage their car maintenance schedules. It integrates with the **NHTSA API** to fetch vehicle data and uses **Firebase** for authentication, data storage, and image persistence. Users can add vehicles, track service history, and receive notifications for upcoming maintenance to keep their cars in top condition.
+Time spent:  8 hours spent in total
 ---
 
 ## App Evaluation
@@ -33,6 +41,21 @@ CarCare+ is an app designed to help users manage their car maintenance and care 
 ---
 
 ## Product Spec
+**Required Functions**
+- [x] Login / Signup (Firebase) 
+- [x] Use of External API (NHTSA)
+- [x] Backend data/image persistence (Firebase) 
+
+**Screens / Archetypes**
+- [x] Splash / Intro Screen 
+- [x] Dashboard 
+- [x] List View of Cars 
+- [x] Car Detail View
+- [x] Profile View
+- [x] Edit Car
+- [x] Edit Profile
+- [x] Add Car
+
 
 ### 1. User Stories
 
@@ -107,26 +130,19 @@ Gif:
 - [x] User can add a car  
 - [x] User can view a list of cars  
 - [x] User can view car details  
-- [x] User can delete a car  
-- [x] UI refreshes automatically when cars are added/removed  
+
 
 ### **Maintenance Logs**
 - [x] User can add maintenance logs for a specific car  
 - [x] Maintenance logs display in real time with Firestore listener  
-- [x] Each log shows type, date, mileage, and optional notes  
+- [x] Each log shows type, date, mileage, and optional notes
+- [ ] User can delete maintance log item  
 
 ### **Profile**
-- [x] User can view their profile email and UID preview  
+- [x] User can view their profile and email  
 - [x] User can access Edit Profile screen  
 - [x] User can update profile picture  
 - [x] User can update password  
-## Need to complete
-### **UI / UX**
--  Modernized login UI  
--  Improved maintenance log styling  
--  Improved profile screen layout  
--  Clean navigation titles and toolbar icons
--  Fix Bugs
 
 
 
@@ -148,5 +164,23 @@ Gif:
 - [GET] /vehicles - get list of user vehicles  
 - [POST] /vehicles - add new vehicle  
 - [GET] /maintenance - fetch maintenance history  
-- [POST] /maintenance - log a new maintenance record  
+- [POST] /maintenance - log a new maintenance record
+
+  ## Final Presentation
+  Link: [Watch Final (https://img.youtube.com/vi/Y1y2jkxTtRE/0.jpg)](https://youtu.be/Y1y2jkxTtRE)
+
+## License
+ Copyright 2025 Giovanni Nembhard
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
 
