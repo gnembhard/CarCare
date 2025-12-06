@@ -112,7 +112,7 @@ Gif:
 
 ## Demo Video
 
-[![Watch the demo](https://img.youtube.com/vi/NIWaJrqXxJk/0.jpg)](https://www.youtube.com/watch?v=NIWaJrqXxJk)
+Click to watch: [![Watch the demo](https://img.youtube.com/vi/NIWaJrqXxJk/0.jpg)](https://www.youtube.com/watch?v=NIWaJrqXxJk)
 
 ## Completed User Stories
 
