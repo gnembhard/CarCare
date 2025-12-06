@@ -165,7 +165,7 @@ Click to watch: [Demo Video](https://www.youtube.com/watch?v=NIWaJrqXxJk)
 - [GET] /maintenance - fetch maintenance history  
 - [POST] /maintenance - log a new maintenance record
 
-  ## Final Presentation
+  ## Final Video
   Link: [Watch Final](https://youtu.be/Y1y2jkxTtRE?si=nQPDpihaSh34mppK)
 
 
