@@ -1,5 +1,4 @@
-# final-project-gnembhard
-final-project-gnembhard created by GitHub Classroom
+
 # CarCare
 Submitted by: Giovanni Nembhard Z23567778
 
