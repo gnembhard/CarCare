@@ -1,11 +1,11 @@
 # final-project-gnembhard
 final-project-gnembhard created by GitHub Classroom
-# CarCare+
+# CarCare
 Submitted by: Giovanni Nembhard Z23567778
 
 ## Overview
 **Description:**  
-CarCareis an app designed to help users manage their car maintenance schedules. It integrates with the **NHTSA API** to fetch vehicle data and uses **Firebase** for authentication, data storage, and image persistence. Users can add vehicles, track service history, and receive notifications for upcoming maintenance to keep their cars in top condition.
+CarCare is an app designed to help users manage their car maintenance schedules. It integrates with the **NHTSA API** to fetch vehicle data and uses **Firebase** for authentication, data storage, and image persistence. Users can add vehicles, track service history, and receive notifications for upcoming maintenance to keep their cars in top condition.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -113,7 +113,7 @@ Gif:
 ## Progress as of Unit 9
 ![Screen+Recording+2025-11-30+at+11 41 25%E2%80%AFPM](https://github.com/user-attachments/assets/5e68af0f-1c7a-46e9-9e4b-87699292493c)
 
-## 🎥 Demo Video
+## Demo Video
 
 [![Watch the demo](https://img.youtube.com/vi/NIWaJrqXxJk/0.jpg)](https://www.youtube.com/watch?v=NIWaJrqXxJk)
 
@@ -136,7 +136,7 @@ Gif:
 - [x] User can add maintenance logs for a specific car  
 - [x] Maintenance logs display in real time with Firestore listener  
 - [x] Each log shows type, date, mileage, and optional notes
-- [ ] User can delete maintance log item  
+- [x] User can delete maintance log item  
 
 ### **Profile**
 - [x] User can view their profile and email  
@@ -167,7 +167,8 @@ Gif:
 - [POST] /maintenance - log a new maintenance record
 
   ## Final Presentation
-  Link: [Watch Final (https://img.youtube.com/vi/Y1y2jkxTtRE/0.jpg)](https://youtu.be/Y1y2jkxTtRE)
+  Link:[![Watch Final!](https://img.youtube.com/vi/nQPDpihaSh34mppK/0.jpg)](https://youtu.be/Y1y2jkxTtRE?si=nQPDpihaSh34mppK)
+
 
 ## License
  Copyright 2025 Giovanni Nembhard
