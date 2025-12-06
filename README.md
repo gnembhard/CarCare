@@ -92,7 +92,7 @@ Gif:
 
 ## 🎥 Demo Video
 
-[![Demo Video](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/0.jpg)](https://youtube.com/shorts/NIWaJrqXxJk?si=a4gtVC3GrBINF9et)
+[![Demo Video](https://img.youtube.com/vi/NIWaJrqXxJk?si=a4gtVC3GrBINF9et/0.jpg)](https://youtube.com/shorts/NIWaJrqXxJk?si=a4gtVC3GrBINF9et)
 
 ## Completed User Stories
 
