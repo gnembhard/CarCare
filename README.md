@@ -18,7 +18,7 @@ final-project-gnembhard created by GitHub Classroom
 
 ## Overview
 **Description:**  
-CarCare+ is an app designed to help users manage their car maintenance and care schedules. Users can track services, get reminders, and find tips to keep their vehicle in top condition.
+CarCare+ is an app designed to help users manage their car maintenance and care schedules. Users can track services, get reminders to keep their car in great condition
 
 ---
 
