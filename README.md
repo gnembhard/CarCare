@@ -2,9 +2,7 @@
 # CarCare
 Submitted by: Giovanni Nembhard Z23567778
 
-## Overview
-**Description:**  
-CarCare is an app designed to help users manage their car maintenance schedules. It integrates with the **NHTSA API** to fetch vehicle data and uses **Firebase** for authentication, data storage, and image persistence. Users can add vehicles, track service history, and receive notifications for upcoming maintenance to keep their cars in top condition.
+
 
 ## Table of Contents
 - [Overview](#overview)
@@ -24,9 +22,9 @@ CarCare is an app designed to help users manage their car maintenance schedules.
 ---
 
 ## Overview
-**Description:**  
-CarCareis an app designed to help users manage their car maintenance schedules. It integrates with the **NHTSA API** to fetch vehicle data and uses **Firebase** for authentication, data storage, and image persistence. Users can add vehicles, track service history, and receive notifications for upcoming maintenance to keep their cars in top condition.
-Time spent:  8 hours spent in total
+CarCare is an app designed to help users manage their car maintenance schedules. It integrates with the **NHTSA API** to fetch vehicle data and uses **Firebase** for authentication, data storage, and image persistence. Users can add vehicles, track service history, and receive notifications for upcoming maintenance to keep their cars in top condition.
+
+Time spent: 8 hours
 ---
 
 ## App Evaluation
