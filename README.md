@@ -122,10 +122,10 @@ Gif:
 - [x] User can update password  
 ## Need to complete
 ### **UI / UX**
-- [x] Modernized login UI  
-- [x] Improved maintenance log styling  
-- [x] Improved profile screen layout  
-- [x] Clean navigation titles and toolbar icons  
+- [] Modernized login UI  
+- [] Improved maintenance log styling  
+- [] Improved profile screen layout  
+- [] Clean navigation titles and toolbar icons  
 
 
 
