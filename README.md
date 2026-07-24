@@ -1,8 +1,5 @@
 
 # CarCare
-Submitted by: Giovanni Nembhard Z23567778
-
-
 
 ## Table of Contents
 - [Overview](#overview)
