@@ -101,23 +101,6 @@ Time spent: 8 hours
 
 ---
 
-## Wireframes
-<img width="1920" height="1080" alt="Final Project Wireframe" src="https://github.com/user-attachments/assets/e3b3962f-cef0-42b5-9c4b-20939dd7df3e" />
-
----
-## Progress as of Unit 8 
-Gif:
-![Screen+Recording+2025-11-28+at+9 52 02%E2%80%AFPM](https://github.com/user-attachments/assets/8ae32c84-7b40-4d29-94cd-3b6493b57e74)
-
-## Progress as of Unit 9
-![Screen+Recording+2025-11-30+at+11 41 25%E2%80%AFPM](https://github.com/user-attachments/assets/5e68af0f-1c7a-46e9-9e4b-87699292493c)
-
-## Demo Video
-
-Click to watch: [Demo Video](https://www.youtube.com/watch?v=NIWaJrqXxJk)
-
-## Completed User Stories
-
 ### **Authentication**
 - [x] User can create an account  
 - [x] User can log in  
@@ -164,10 +147,6 @@ Click to watch: [Demo Video](https://www.youtube.com/watch?v=NIWaJrqXxJk)
 - [POST] /vehicles - add new vehicle  
 - [GET] /maintenance - fetch maintenance history  
 - [POST] /maintenance - log a new maintenance record
-
-  ## Final Video
-  Link: [Watch Final](https://youtu.be/Y1y2jkxTtRE?si=nQPDpihaSh34mppK)
-
 
 ## License
  Copyright 2025 Giovanni Nembhard
