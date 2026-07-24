@@ -73,15 +73,6 @@ Add Maintenance
 
 ---
 
-## Future Improvements
-
-- AI maintenance recommendations
-- Repair cost tracking
-- Fuel and tire tracking
-- Vehicle recall notifications
-- Push notification improvements
-
----
 
 ## License
 
